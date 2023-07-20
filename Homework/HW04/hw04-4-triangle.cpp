@@ -16,12 +16,11 @@
 
 #include <stdio.h>
 int main(){
-    int Height,Weight;
-    float Answer;
+    float Answer,Height,Weight;
     printf("Enter Height : ");
-    scanf("%d",&Height);
+    scanf("%f",&Height);
     printf("Enter Weight : ");
-    scanf("%d",&Weight);
+    scanf("%f",&Weight);
     Answer = (Height*Weight)/2;
     printf("Triagle Area : %.1f",Answer);
 }   
