@@ -19,9 +19,9 @@ int main(){
     int Height,Weight;
     float Answer;
     printf("Enter Height : ");
-    scanf("%d",Height);
+    scanf("%d",&Height);
     printf("Enter Weight : ");
-    scanf("%d",Weight);
+    scanf("%d",&Weight);
     Answer = (Height*Weight)/2;
     printf("Triagle Area : %.1f",Answer);
 }   
