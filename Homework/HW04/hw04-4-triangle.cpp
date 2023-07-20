@@ -13,3 +13,14 @@
     Output:
         Triagle Area : 7.5
 */
+
+#include <stdio.h>
+int main(){
+    float Answer,Height,Weight;
+    printf("Enter Height : ");
+    scanf("%f",&Height);
+    printf("Enter Weight : ");
+    scanf("%f",&Weight);
+    Answer = (Height*Weight)/2;
+    printf("Triagle Area : %.1f",Answer);
+}   
